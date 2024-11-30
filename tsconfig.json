@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                            // תמיכה ב-ES6
+    "module": "commonjs",                          // מודולים המתאימים ל-Node.js
+    "rootDir": "src",                            // תיקיית קבצי המקור
+    "outDir": "dist",                            // תיקיית קבצי הפלט
+    "strict": true,                                // הגדרות טיפוס מחמירות
+    "esModuleInterop": true,                       // תאימות למודולים CommonJS
+    "forceConsistentCasingInFileNames": true,      // שמירה על רגישות רישיות
+    "skipLibCheck": true,                          // דילוג על בדיקת קבצי .d.ts
+    "resolveJsonModule": true,                     // תמיכה בייבוא קבצי JSON
+    "sourceMap": true                              // הפקת מפות קוד מקור לניפוי באגים
+  },
+  "include": ["src"],                              // קבצים ותיקיות לכלול בקומפילציה
+  "exclude": ["node_modules"]                      // קבצים ותיקיות שלא ייכללו בקומפילציה
+}
